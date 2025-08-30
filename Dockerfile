@@ -1,4 +1,4 @@
-FROM bandi13/gui-docker:1.01
+FROM bandi13/gui-docker:1.6
 
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update -y \
