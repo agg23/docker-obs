@@ -12,4 +12,4 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 
 USER dockerUser
 
-RUN echo "?package(bash):needs=\"X11\" section=\"DockerCustom\" title=\"OBS Screencast\" command=\"obs\"" >> /usr/share/menu/custom-docker && update-menus
+RUN echo "obs" >> /opt/startup_scripts/obs.sh
